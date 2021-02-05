@@ -3,12 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import StarRating from './StarRating';
+import UserList from './UserList';
 import reportWebVitals from './reportWebVitals';
+import UserActions from './UserActions';
 
 ReactDOM.render(
   <React.StrictMode>
     <App name="Rachit" />
     <h2>We rate you : <StarRating totalStars={10}></StarRating></h2>
+    <UserActions></UserActions>
+    <UserList></UserList>
   </React.StrictMode>,
   document.getElementById('root')
 );
