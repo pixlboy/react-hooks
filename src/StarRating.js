@@ -1,4 +1,5 @@
-import React, {useState} from "react";
+// Demo of use state hook
+import {useState} from "react";
 
 function Star({selected = false, onSelect}) {
     return <span 

@@ -1,5 +1,5 @@
 // Demonstrating use reducer and actions
-import React, {useReducer, useRef} from "react";
+import {useReducer, useRef} from "react";
 
 const initialState = {
     message: 'Hello',

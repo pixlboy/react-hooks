@@ -1,7 +1,8 @@
+//Demo of use state hook
 import {useState} from "react";
 import './App.css';
 
-function App({name}) {
+function StateHook({name}) {
 
   // array destructuring
   const [status, setStatus] = useState("Not Delivered");
@@ -15,4 +16,4 @@ function App({name}) {
   );
 }
 
-export default App;
+export default StateHook;
