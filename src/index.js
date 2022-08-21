@@ -24,6 +24,7 @@ const trees = [
 ]
 
 ReactDOM.render(
+  <React.StrictMode>
   <TreesContext.Provider value={{trees}}>
     <TreeList></TreeList>
     <GitProfile login="rach8garg"></GitProfile>
@@ -32,7 +33,8 @@ ReactDOM.render(
     <UserActions></UserActions>
     <ColorSound></ColorSound>
     <UserList></UserList>
-  </TreesContext.Provider>,
+  </TreesContext.Provider>
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
